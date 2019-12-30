@@ -1,0 +1,47 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Verified: Yes
+# Finished: Yes
+
+(module BREAKOUT-LV-EZ1-RANGEFINDER (layer F.Cu) (tedit 58155A61)
+  (descr http://maxbotix.com/uploads/LV-MaxSonar-EZ1-Datasheet.pdf)
+  (tags "Rangefinder Module Breakout Board")
+  (fp_text reference REF** (at -9.15 6.35) (layer F.Fab)
+    (effects (font (size 2.032 2.032) (thickness 0.254)))
+  )
+  (fp_text value BREAKOUT-LV-EZ1-RANGEFINDER (at 2.9 4.1 90) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at -1.15 -6.4) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 1.6 -5.4) (end -18.9 -5.4) (layer F.Fab) (width 0.0508))
+  (fp_line (start 1.6 17.1) (end 1.6 -5.4) (layer F.Fab) (width 0.0508))
+  (fp_line (start -18.9 17.1) (end 1.6 17.1) (layer F.Fab) (width 0.0508))
+  (fp_line (start -18.9 -5.4) (end -18.9 17.1) (layer F.Fab) (width 0.0508))
+  (fp_line (start 1.6 17.1) (end 1.6 -5.4) (layer F.CrtYd) (width 0.0508))
+  (fp_line (start -18.9 17.1) (end 1.6 17.1) (layer F.CrtYd) (width 0.0508))
+  (fp_line (start -18.9 -5.4) (end -18.9 17.1) (layer F.CrtYd) (width 0.0508))
+  (fp_line (start 1.6 -5.4) (end -18.9 -5.4) (layer F.CrtYd) (width 0.0508))
+  (fp_line (start -18.65 -5.248) (end 1.289 -5.248) (layer F.SilkS) (width 0.1524))
+  (fp_line (start 1.289 16.85) (end 1.289 -5.248) (layer F.SilkS) (width 0.1524))
+  (fp_line (start -18.65 16.85) (end -18.65 -5.248) (layer F.SilkS) (width 0.1524))
+  (fp_line (start -18.65 16.85) (end 1.289 16.85) (layer F.SilkS) (width 0.1524))
+  (fp_line (start -1.525 0.075) (end -1.525 -1.475) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.5 -1.5) (end 1.289 -1.5) (layer F.SilkS) (width 0.15))
+  (pad "" np_thru_hole circle (at -3.156 -2.708) (size 3.1496 3.1496) (drill 3.1496) (layers F.Cu))
+  (pad 1 thru_hole rect (at 0.019 -0.041) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole oval (at 0.019 2.499) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole oval (at 0.019 5.039) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole oval (at 0.019 7.579) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 5 thru_hole oval (at 0.019 10.119) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 6 thru_hole oval (at 0.019 12.659) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 7 thru_hole oval (at 0.019 15.199) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad "" np_thru_hole circle (at -16.11 14.31) (size 3.1496 3.1496) (drill 3.1496) (layers F.Cu))
+)

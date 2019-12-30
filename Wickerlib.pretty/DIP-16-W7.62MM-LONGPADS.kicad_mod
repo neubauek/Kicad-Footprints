@@ -1,0 +1,58 @@
+# KiCad Footprint 
+# Originally from the KiCad Official Libraries
+#   http://github.com/kicad/
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 409
+# Fab_YSize_mils: 894
+#
+# Verified: No
+# Finished: Yes
+
+(module DIP-16-W7.62MM-LONGPADS (layer F.Cu) (tedit 58156DF0)
+  (attr smd)
+  (fp_text reference S2 (at 4 9.25 90) (layer F.Fab)
+    (effects (font (size 2.032 2.032) (thickness 0.254)))
+  )
+  (fp_text value DIP-SWITCH-SPST (at 4.064 9.144 90) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 0.254 0.254) (layer F.Fab) (width 0.4))
+  (fp_text user %R (at -0.508 -3.302) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 9 -2.45) (end 9 20.25) (layer F.Fab) (width 0.05))
+  (fp_line (start -1.4 20.25) (end 9 20.25) (layer F.Fab) (width 0.05))
+  (fp_line (start 0.135 -2.295) (end 0.135 -1.025) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.485 -2.295) (end 7.485 -1.025) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.485 20.075) (end 7.485 18.805) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0.135 20.075) (end 0.135 18.805) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0.135 -2.295) (end 7.485 -2.295) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0.135 20.075) (end 7.485 20.075) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0.135 -1.025) (end -1.15 -1.025) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.4 -2.45) (end -1.4 20.25) (layer F.Fab) (width 0.05))
+  (fp_line (start 0.135 20.075) (end 7.485 20.075) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.4 -2.45) (end 9 -2.45) (layer F.Fab) (width 0.05))
+  (fp_circle (center -0.762 -1.778) (end -0.508 -1.524) (layer F.SilkS) (width 0.4))
+  (pad 1 thru_hole oval (at 0 0) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole oval (at 0 2.54) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole oval (at 0 5.08) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole oval (at 0 7.62) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 5 thru_hole oval (at 0 10.16) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 6 thru_hole oval (at 0 12.7) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 7 thru_hole oval (at 0 15.24) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 8 thru_hole oval (at 0 17.78) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 9 thru_hole oval (at 7.62 17.78) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 10 thru_hole oval (at 7.62 15.24) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 11 thru_hole oval (at 7.62 12.7) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 12 thru_hole oval (at 7.62 10.16) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 13 thru_hole oval (at 7.62 7.62) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 14 thru_hole oval (at 7.62 5.08) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 15 thru_hole oval (at 7.62 2.54) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+  (pad 16 thru_hole oval (at 7.62 0) (size 2.3 1.6) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
+)

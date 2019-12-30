@@ -1,0 +1,40 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 189
+# Fab_YSize_mils: 110
+#
+# Verified: No
+# Finished: Yes
+
+(module LED-BIVAR-SMP4-4PLCC-SMD (layer F.Cu) (tedit 599475C5)
+  (attr smd)
+  (fp_text reference REF** (at 0.151961 0.076857 180) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value LED-BIVAR-SMP4-4PLCC-SMD (at 0 3.2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -2.25 1) (end -1.75 1.475) (layer F.Fab) (width 0.049784))
+  (fp_circle (center -1.4 0.9) (end -1.3 1) (layer F.Fab) (width 0.254))
+  (fp_text user %R (at 0 -2.2) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -2.25 1) (end -2.248039 -1.323143) (layer F.Fab) (width 0.04064))
+  (fp_line (start -2.248039 -1.323143) (end 2.551961 -1.323143) (layer F.Fab) (width 0.04064))
+  (fp_line (start 2.551961 1.476857) (end 2.551961 -1.323143) (layer F.Fab) (width 0.04064))
+  (fp_line (start -1.75 1.475) (end 2.551961 1.476857) (layer F.Fab) (width 0.04064))
+  (pad 4 smd rect (at 1.651961 -0.773143 180) (size 1.5 0.9) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.0762))
+  (pad 3 smd rect (at -1.348039 -0.773143 180) (size 1.5 0.9) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.0762))
+  (pad 2 smd rect (at 1.651961 0.926857 180) (size 1.5 0.9) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.0762))
+  (pad 1 smd rect (at -1.348039 0.926857 180) (size 1.5 0.9) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.0762))
+)

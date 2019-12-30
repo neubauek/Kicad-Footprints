@@ -1,0 +1,37 @@
+# KiCad Footprint 
+# Originally from the XESS Corp
+#   https://github.com/xesscorp/RPi_Hat_Template
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the MIT
+#   https://opensource.org/licenses/MIT
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 748
+# Fab_YSize_mils: 610
+#
+# Verified: Yes
+# Finished: Yes
+
+(module RELAY-SPDT-KLT1C12DC12 (layer F.Cu) (tedit 5B1E2451)
+  (attr smd)
+  (fp_text reference K1 (at 8.6 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value KLT1C12DC12 (at 6.1 10) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at 0 -9) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.4 -7.75) (end -1.4 7.75) (layer F.Fab) (width 0.15))
+  (fp_line (start 17.6 -7.75) (end -1.4 -7.75) (layer F.Fab) (width 0.15))
+  (fp_line (start 17.6 7.75) (end 17.6 -7.75) (layer F.Fab) (width 0.15))
+  (fp_line (start -1.4 7.75) (end 17.6 7.75) (layer F.Fab) (width 0.15))
+  (pad - thru_hole circle (at 2.1 -6) (size 2.1 2.1) (drill 1.6) (layers *.Cu *.Mask))
+  (pad + thru_hole circle (at 2.1 6) (size 2.1 2.1) (drill 1.6) (layers *.Cu *.Mask))
+  (pad COM thru_hole circle (at 0 0) (size 2.1 2.1) (drill 1.6) (layers *.Cu *.Mask))
+  (pad NC thru_hole circle (at 14.3 -6) (size 2.1 2.1) (drill 1.6) (layers *.Cu *.Mask))
+  (pad NO thru_hole circle (at 14.3 6) (size 2.1 2.1) (drill 1.6) (layers *.Cu *.Mask))
+)

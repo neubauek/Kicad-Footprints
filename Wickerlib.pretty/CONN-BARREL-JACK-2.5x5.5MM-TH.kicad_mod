@@ -1,0 +1,43 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 640
+# Fab_YSize_mils: 423
+#
+# Verified: Yes
+# Finished: Yes
+
+(module CONN-BARREL-JACK-2.5x5.5MM-TH (layer F.Cu) (tedit 584B62EF)
+  (attr smd)
+  (fp_text reference J1 (at -9.5 3.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 9V (at -6.2 -2.85) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -0.6858 4.8006) (end 2.3114 4.8006) (layer F.Fab) (width 0.04064))
+  (fp_arc (start -3.048 4.8006) (end -0.6858 4.8006) (angle 179.3839529) (layer F.Fab) (width 0.04064))
+  (fp_line (start -13.9446 4.826) (end -5.4102 4.826) (layer F.Fab) (width 0.04064))
+  (fp_circle (center -3 4.65) (end -1.5 5.9) (layer F.Fab) (width 0.05))
+  (fp_circle (center -5.952562 -0.1) (end -4.702562 1.4) (layer F.Fab) (width 0.05))
+  (fp_circle (center 0.05 -0.1) (end 0.8 1.65) (layer F.Fab) (width 0.05))
+  (fp_line (start 2.3 -4.8514) (end -13.9446 -4.8514) (layer F.Fab) (width 0.05))
+  (fp_line (start 2.3114 4.8492) (end 2.3 -4.8514) (layer F.Fab) (width 0.05))
+  (fp_line (start -13.9446 -4.8514) (end -13.9446 4.826) (layer F.Fab) (width 0.05))
+  (fp_text user %R (at -9.25054 5.6912) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -10.2005 -4.60088) (end -10.2005 4.40088) (layer F.SilkS) (width 0.15))
+  (fp_line (start -13.70062 -4.60088) (end -13.70062 4.40088) (layer F.SilkS) (width 0.15))
+  (fp_line (start -13.70062 4.40088) (end 0.80024 4.40088) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0.80024 4.40088) (end 0.80024 -4.60088) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0.80024 -4.60088) (end -13.70062 -4.60088) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole circle (at 0.00014 -0.1) (size 4 4) (drill 2.99974) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at -5.99934 -0.1) (size 4 4) (drill 2.99974) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole circle (at -2.9996 4.599) (size 4 4) (drill 2.99974) (layers *.Cu *.Mask F.SilkS))
+)

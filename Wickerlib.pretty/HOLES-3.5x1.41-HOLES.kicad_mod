@@ -1,0 +1,35 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 0
+# Fab_YSize_mils: 0
+#
+# Verified: Yes
+# Finished: Yes
+
+(module HOLES-3.5x1.41-HOLES (layer F.Cu) (tedit 5B1D6CAE)
+  (attr virtual)
+  (fp_text reference NONE (at -10.95 -17.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "LCD 1602" (at 2.2 -17.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 50.8 22.86) (end 50.8 -22.86) (layer F.CrtYd) (width 0.127))
+  (fp_line (start -50.8 22.86) (end 50.8 22.86) (layer F.CrtYd) (width 0.127))
+  (fp_line (start -50.8 -22.86) (end -50.8 22.86) (layer F.CrtYd) (width 0.127))
+  (fp_line (start 50.8 -22.86) (end -50.8 -22.86) (layer F.CrtYd) (width 0.127))
+  (fp_circle (center 44.498466 17.91464) (end 47.798466 17.814) (layer F.SilkS) (width 0.15))
+  (fp_circle (center -44.401534 -17.89936) (end -41.101534 -18) (layer F.SilkS) (width 0.15))
+  (fp_circle (center -44.401534 17.91464) (end -41.101534 17.814) (layer F.SilkS) (width 0.15))
+  (fp_circle (center 44.498466 -17.89936) (end 47.798466 -18) (layer F.SilkS) (width 0.15))
+  (pad "" np_thru_hole circle (at -44.45 -17.907) (size 5.5372 5.5372) (drill 5.5372) (layers *.Cu))
+  (pad "" np_thru_hole circle (at -44.45 17.907) (size 5.5372 5.5372) (drill 5.5372) (layers *.Cu))
+  (pad "" np_thru_hole circle (at 44.45 17.907) (size 5.5372 5.5372) (drill 5.5372) (layers *.Cu))
+  (pad "" np_thru_hole circle (at 44.45 -17.907) (size 5.5372 5.5372) (drill 5.5372) (layers *.Cu))
+)

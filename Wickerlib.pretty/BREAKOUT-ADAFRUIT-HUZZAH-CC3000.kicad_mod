@@ -1,0 +1,71 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 1590
+# Fab_YSize_mils: 1040
+#
+# Verified: No
+# Finished: Yes
+
+(module BREAKOUT-ADAFRUIT-HUZZAH-CC3000 (layer F.Cu) (tedit 59937246)
+  (attr smd)
+  (fp_text reference REF** (at -21.2598 12.3444) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value BREAKOUT-ADAFRUIT-HUZZAH-CC3000 (at -24.7396 24.765) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at -37.4396 1.6002) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -1.8288 23.4188) (end -1.7272 23.622) (layer F.Fab) (width 0.508))
+  (fp_text user IRQ (at 1.886857 3.175) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_line (start 0 0) (end 0 26.162) (layer F.SilkS) (width 0.254))
+  (fp_line (start 0 0) (end -40.386 0) (layer F.SilkS) (width 0.254))
+  (fp_line (start -40.386 0) (end -40.386 26.162) (layer F.Fab) (width 0.05))
+  (fp_line (start 0 0) (end 0 26.416) (layer F.Fab) (width 0.05))
+  (fp_line (start -40.386 0) (end 0 0) (layer F.Fab) (width 0.05))
+  (fp_line (start -40.386 26.162) (end 0 26.162) (layer F.Fab) (width 0.05))
+  (fp_line (start 0 26.162) (end -40.386 26.162) (layer F.SilkS) (width 0.254))
+  (fp_line (start -40.386 0) (end -40.386 26.162) (layer F.SilkS) (width 0.254))
+  (fp_text user VBEN (at 2.54 5.715) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text user CS (at 1.596571 8.255) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text user MOSI (at 2.443238 10.795) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text user MISO (at 2.443238 13.335) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text user CLK (at 2.032 15.875) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text user VIN (at 1.814286 18.415) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text user 3V3 (at 2.007809 20.955) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text user GND (at 2.152952 23.495) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (pad 1 thru_hole rect (at -1.816 23.386 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole oval (at -1.816 20.846 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole oval (at -1.816 18.306 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole oval (at -1.816 15.766 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 5 thru_hole oval (at -1.816 13.226 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 6 thru_hole oval (at -1.816 10.686 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 7 thru_hole oval (at -1.816 8.146 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 8 thru_hole oval (at -1.816 5.606 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 9 thru_hole oval (at -1.816 3.066 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+)

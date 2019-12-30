@@ -1,0 +1,22 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# This footprint is a placeholder. 
+#
+# Fab_XSize_mils: 0
+# Fab_YSize_mils: 0
+#
+# Verified: Yes
+# Finished: Yes
+
+(module UNDEFINED (layer F.Cu) (tedit 57244E20)
+  (attr virtual)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value UNDEFINED (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

@@ -1,0 +1,45 @@
+# KiCad Footprint 
+# Originally from the KiCad Official Libraries
+#   http://github.com/kicad/
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 140
+# Fab_YSize_mils: 160
+#
+# Verified: Yes
+# Finished: Yes
+
+(module SSOP-5 (layer F.Cu) (tedit 59948209)
+  (attr smd)
+  (fp_text reference U1 (at 0 0) (layer F.Fab)
+    (effects (font (size 0.9 0.9) (thickness 0.15)))
+  )
+  (fp_text value "BU33SD5WG 500mA" (at 2.413 0 90) (layer F.SilkS) hide
+    (effects (font (size 0.9 0.9) (thickness 0.125)))
+  )
+  (fp_line (start 0.3 -1.7) (end 0.3 -2) (layer F.Fab) (width 0.049784))
+  (fp_line (start -0.2 -1.7) (end 0.3 -1.7) (layer F.Fab) (width 0.049784))
+  (fp_line (start -0.2 -2) (end -0.2 -1.7) (layer F.Fab) (width 0.049784))
+  (fp_line (start 1.778 2.032) (end 1.778 -2.032) (layer F.Fab) (width 0.049784))
+  (fp_line (start -1.778 2.032) (end 1.778 2.032) (layer F.Fab) (width 0.049784))
+  (fp_line (start -1.778 -2.032) (end -1.778 2.032) (layer F.Fab) (width 0.049784))
+  (fp_line (start 1.778 -2.032) (end -1.778 -2.032) (layer F.Fab) (width 0.049784))
+  (fp_text user %R (at -2.54 0 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.6 -0.6) (end -1.6 0.6) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.6 0.6) (end 1.6 0.6) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.6 0.6) (end 1.6 -0.6) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.6 -0.6) (end -1.6 -0.6) (layer F.SilkS) (width 0.15))
+  (fp_circle (center -1.1 1.3) (end -1.1 1.2) (layer F.Fab) (width 0.254))
+  (pad 1 smd rect (at -0.99 1.2) (size 0.6 1) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 1.2) (size 0.6 1) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 0.99 1.2) (size 0.6 1) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at 0.99 -1.2) (size 0.6 1) (layers F.Cu F.Paste F.Mask))
+  (pad 5 smd rect (at -0.99 -1.2) (size 0.6 1) (layers F.Cu F.Paste F.Mask))
+)

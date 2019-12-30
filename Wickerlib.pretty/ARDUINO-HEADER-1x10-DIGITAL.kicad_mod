@@ -1,0 +1,77 @@
+# KiCad Footprint 
+# Originally from the KiCad Official Libraries
+#   http://github.com/kicad/
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 1043
+# Fab_YSize_mils: 142
+#
+# Verified: Yes
+# Finished: Yes
+
+(module ARDUINO-HEADER-1x10-DIGITAL (layer F.Cu) (tedit 581558E9)
+  (attr smd)
+  (fp_text reference P3 (at 10.2 0) (layer F.Fab)
+    (effects (font (size 2 2) (thickness 0.254)))
+  )
+  (fp_text value DIGITAL2 (at 2.6 -2.7) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.8 1.8) (end -1.8 -1.8) (layer F.Fab) (width 0.05))
+  (fp_line (start 24.7 1.8) (end -1.8 1.8) (layer F.Fab) (width 0.05))
+  (fp_line (start 24.7 -1.8) (end 24.7 1.8) (layer F.Fab) (width 0.05))
+  (fp_line (start -1.8 -1.8) (end 24.7 -1.8) (layer F.Fab) (width 0.05))
+  (fp_text user D8 (at -0.1016 3.022599 90) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_line (start -1.75 -1.75) (end -1.75 1.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 24.65 -1.75) (end 24.65 1.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.75 -1.75) (end 24.65 -1.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.75 1.75) (end 24.65 1.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.4224 1.27) (end 24.13 1.27) (layer F.SilkS) (width 0.15))
+  (fp_line (start 24.13 1.27) (end 24.13 -1.27) (layer F.SilkS) (width 0.15))
+  (fp_line (start 24.13 -1.27) (end -1.4224 -1.27) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.4224 1.27) (end -1.4224 -1.27) (layer F.SilkS) (width 0.15))
+  (fp_text user D9 (at 2.4892 3.022599 90) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_text user D10 (at 5.0292 3.385456 90) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_text user D11 (at 7.5692 3.385456 90) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_text user D12 (at 10.1092 3.385456 90) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_text user D13 (at 12.6492 3.385456 90) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_text user GND (at 15.1892 3.439885 90) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_text user AREF (at 17.7292 3.6576 90) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_text user SDA (at 20.2692 3.349171 90) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_text user SCL (at 22.8092 3.331028 90) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (pad D8 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad D9 thru_hole oval (at 2.54 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad D10 thru_hole oval (at 5.08 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad D11 thru_hole oval (at 7.62 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad D12 thru_hole oval (at 10.16 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad D13 thru_hole oval (at 12.7 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad GND3 thru_hole oval (at 15.24 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad AREF thru_hole oval (at 17.78 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad SDA thru_hole oval (at 20.32 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad SCL thru_hole oval (at 22.86 0) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+)

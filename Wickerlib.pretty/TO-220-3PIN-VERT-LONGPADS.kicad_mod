@@ -1,0 +1,59 @@
+# KiCad Footprint 
+# Originally from the KiCad Official Libraries
+#   http://github.com/kicad/
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 433
+# Fab_YSize_mils: 207
+#
+# Verified: Yes
+# Finished: Yes
+
+(module TO-220-3PIN-VERT-LONGPADS (layer F.Cu) (tedit 599485DA)
+  (attr smd)
+  (fp_text reference NCP7805-5V (at 0 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value NCP7805-5V (at 0 3.81) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 5.5 2) (end 5.5 -3.25) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -5.5 2) (end 5.5 2) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -5.5 -3.25) (end -5.5 2) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 5.5 -3.25) (end -5.5 -3.25) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 5.5 -2) (end -5.5 -2) (layer F.Fab) (width 0.05))
+  (fp_line (start 5.5 -3) (end 5.5 -3.25) (layer F.Fab) (width 0.05))
+  (fp_line (start 5.5 -3.25) (end -5.5 -3.25) (layer F.Fab) (width 0.05))
+  (fp_line (start -5.5 2) (end -5.5 -3.25) (layer F.Fab) (width 0.05))
+  (fp_line (start 5.5 2) (end -5.5 2) (layer F.Fab) (width 0.05))
+  (fp_line (start 5.5 1.75) (end 5.5 2) (layer F.Fab) (width 0.05))
+  (fp_line (start 5.5 -3) (end 5.5 1.75) (layer F.Fab) (width 0.05))
+  (fp_text user %R (at 0 2.75) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 5.334 -1.905) (end 3.429 -1.905) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0.889 -1.905) (end 1.651 -1.905) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.524 -1.905) (end -1.651 -1.905) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.524 -1.905) (end -0.889 -1.905) (layer F.SilkS) (width 0.15))
+  (fp_line (start -5.334 -1.905) (end -3.556 -1.905) (layer F.SilkS) (width 0.15))
+  (fp_line (start -5.334 1.778) (end -3.683 1.778) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.016 1.905) (end -1.651 1.905) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.524 1.905) (end 0.889 1.905) (layer F.SilkS) (width 0.15))
+  (fp_line (start 5.334 1.778) (end 3.683 1.778) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.524 -3.048) (end -1.524 -1.905) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.524 -3.048) (end 1.524 -1.905) (layer F.SilkS) (width 0.15))
+  (fp_line (start 5.334 -1.905) (end 5.334 1.778) (layer F.SilkS) (width 0.15))
+  (fp_line (start -5.334 1.778) (end -5.334 -1.905) (layer F.SilkS) (width 0.15))
+  (fp_line (start 5.334 -3.048) (end 5.334 -1.905) (layer F.SilkS) (width 0.15))
+  (fp_line (start -5.334 -1.905) (end -5.334 -3.048) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0 -3.048) (end -5.334 -3.048) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0 -3.048) (end 5.334 -3.048) (layer F.SilkS) (width 0.15))
+  (pad 2 thru_hole oval (at 0 0 90) (size 3.50012 1.69926) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole oval (at -2.54 0 90) (size 3.50012 1.69926) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole oval (at 2.54 0 90) (size 3.50012 1.69926) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+)

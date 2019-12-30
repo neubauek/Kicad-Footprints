@@ -1,0 +1,62 @@
+# KiCad Footprint 
+# Originally from the KiCad Official Libraries
+#   http://github.com/kicad/
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 157
+# Fab_YSize_mils: 142
+#
+# Verified: No
+# Finished: Yes
+
+(module DFN-12-1EP-3x3MM-P0.45MM (layer F.Cu) (tedit 59946E95)
+  (attr smd)
+  (fp_text reference U4 (at 0 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value STNS01 (at 0 2.55) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at 0 -2.54) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -1.397 -1.778) (end -1.27 -1.778) (layer F.SilkS) (width 0.1524))
+  (fp_line (start -1.5 1.5) (end -1.5 -0.5) (layer F.Fab) (width 0.15))
+  (fp_line (start -2 -1.8) (end -2 1.8) (layer F.Fab) (width 0.05))
+  (fp_line (start 2 -1.8) (end 2 1.8) (layer F.Fab) (width 0.05))
+  (fp_line (start -2 -1.8) (end 2 -1.8) (layer F.Fab) (width 0.05))
+  (fp_line (start -2 1.8) (end 2 1.8) (layer F.Fab) (width 0.05))
+  (fp_line (start -1.05 1.625) (end 1.05 1.625) (layer F.SilkS) (width 0.15))
+  (fp_line (start -0.762 -1.651) (end 1.016 -1.651) (layer F.SilkS) (width 0.15))
+  (fp_circle (center -1.4224 -1.143) (end -1.2954 -1.143) (layer F.Fab) (width 0.1524))
+  (pad 1 smd rect (at -1.4 -1.125) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -1.4 -0.675) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at -1.4 -0.225) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at -1.4 0.225) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 5 smd rect (at -1.4 0.675) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 6 smd rect (at -1.4 1.125) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 7 smd rect (at 1.4 1.125) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 8 smd rect (at 1.4 0.675) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 9 smd rect (at 1.4 0.225) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 10 smd rect (at 1.4 -0.225) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 11 smd rect (at 1.4 -0.675) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 12 smd rect (at 1.4 -1.125) (size 0.7 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 13 smd rect (at 0.415 0.595) (size 0.83 1.19) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin_ratio -0.2))
+  (pad 13 smd rect (at 0.415 -0.595) (size 0.83 1.19) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin_ratio -0.2))
+  (pad 13 smd rect (at -0.415 0.595) (size 0.83 1.19) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin_ratio -0.2))
+  (pad 13 smd rect (at -0.415 -0.595) (size 0.83 1.19) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin_ratio -0.2))
+  (model Housings_DFN_QFN.3dshapes/DFN-12-1EP_3x3mm_Pitch0.45mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

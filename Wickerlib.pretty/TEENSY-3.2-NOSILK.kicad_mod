@@ -1,0 +1,69 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 709
+# Fab_YSize_mils: 1398
+#
+# Verified: Yes
+# Finished: Yes
+
+(module TEENSY-3.2-NOSILK (layer F.Cu) (tedit 59936670)
+  (attr smd)
+  (fp_text reference J1 (at 0 -0.127) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TEENSY3.2-72MHz (at 0.381 14.732) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at -4.699 14.478) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 2.921 -15.088) (end 2.921 -17.088) (layer F.Fab) (width 0.05))
+  (fp_line (start -1.579 -15.088) (end 2.921 -15.088) (layer F.Fab) (width 0.05))
+  (fp_line (start -1.579 -17.088) (end -1.579 -15.088) (layer F.Fab) (width 0.05))
+  (fp_line (start -8.579 18.412) (end 9.421 18.412) (layer F.Fab) (width 0.05))
+  (fp_line (start -8.579 -17.088) (end -8.579 18.412) (layer F.Fab) (width 0.05))
+  (fp_line (start 9.421 -17.088) (end -8.579 -17.088) (layer F.Fab) (width 0.05))
+  (fp_line (start 9.421 18.412) (end 9.421 -17.088) (layer F.Fab) (width 0.05))
+  (fp_text user %R (at 5.461 19.812) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad G1 thru_hole circle (at -7.239 -15.748) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 0 thru_hole circle (at -7.239 -13.208) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at -7.239 -10.668) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at -7.239 -8.128) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole circle (at -7.239 -5.588) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole circle (at -7.239 -3.048) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 5 thru_hole circle (at -7.239 -0.508) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 6 thru_hole circle (at -7.239 2.032) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 7 thru_hole circle (at -7.239 4.572) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 8 thru_hole circle (at -7.239 7.112) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 9 thru_hole circle (at -7.239 9.652) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 10 thru_hole circle (at -7.239 12.192) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 11 thru_hole circle (at -7.239 14.732) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 12 thru_hole circle (at -7.239 17.272) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad VBAT thru_hole circle (at -4.699 17.272) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 3V1 thru_hole circle (at -2.159 17.272) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad G2 thru_hole circle (at 0.381 17.272) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad PGM thru_hole circle (at 2.921 17.272) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad DAC thru_hole circle (at 5.461 17.272) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 13 thru_hole circle (at 8.001 17.272) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 16 thru_hole circle (at 8.001 9.652) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 3V2 thru_hole circle (at 8.001 -10.668) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 18 thru_hole circle (at 8.001 4.572) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 17 thru_hole circle (at 8.001 7.112) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad AG thru_hole circle (at 8.001 -13.208) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 22 thru_hole circle (at 8.001 -5.588) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad VIN thru_hole circle (at 8.001 -15.748) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 21 thru_hole circle (at 8.001 -3.048) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 20 thru_hole circle (at 8.001 -0.508) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 19 thru_hole circle (at 8.001 2.032) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 23 thru_hole circle (at 8.001 -8.128) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 14 thru_hole circle (at 8.001 14.732) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 15 thru_hole circle (at 8.001 12.192) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+)

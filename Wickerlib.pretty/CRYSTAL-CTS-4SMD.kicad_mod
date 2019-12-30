@@ -1,0 +1,39 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 280
+# Fab_YSize_mils: 180
+#
+# Verified: Yes
+# Finished: Yes
+
+(module CRYSTAL-CTS-4SMD (layer F.Cu) (tedit 58156A29)
+  (attr smd)
+  (fp_text reference X1 (at 0 0) (layer F.Fab)
+    (effects (font (size 2.032 2.032) (thickness 0.254)))
+  )
+  (fp_text value "16MHz 18pF" (at 0 0) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -3.556 -2.54) (end 3.556 -2.54) (layer F.Fab) (width 0.05))
+  (fp_line (start -3.556 2.032) (end -3.556 -2.54) (layer F.Fab) (width 0.05))
+  (fp_line (start 3.556 2.032) (end -3.556 2.032) (layer F.Fab) (width 0.05))
+  (fp_line (start 3.556 -2.54) (end 3.556 2.032) (layer F.Fab) (width 0.05))
+  (fp_text user %R (at 0 -3) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -2.286 1.016) (end -2.032 1.016) (layer F.Fab) (width 0.2))
+  (fp_line (start -3.048 1.524) (end -3.048 -1.9812) (layer F.SilkS) (width 0.1524))
+  (fp_line (start -3.048 1.524) (end 2.9464 1.524) (layer F.SilkS) (width 0.1524))
+  (fp_line (start -3.048 -1.9812) (end 2.9464 -1.9812) (layer F.SilkS) (width 0.1524))
+  (fp_line (start 2.9464 1.524) (end 2.9464 -1.9812) (layer F.SilkS) (width 0.1524))
+  (pad 3 smd rect (at 2.1844 -1.4732) (size 1.905 1.397) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at -2.286 -1.4732) (size 1.905 1.397) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.1844 1.016) (size 1.905 1.397) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -2.286 1.016) (size 1.905 1.397) (layers F.Cu F.Paste F.Mask))
+)

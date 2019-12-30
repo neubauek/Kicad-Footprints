@@ -1,0 +1,48 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 347
+# Fab_YSize_mils: 543
+#
+# Verified: Yes
+# Finished: Yes
+
+(module RES-TRIMPOT-TTELEC-P160-TH (layer F.Cu) (tedit 583B59C6)
+  (attr smd)
+  (fp_text reference R10 (at 0 4.7 90) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 10K (at 0 -3.1) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 7.0104 2.0066) (end 2.0066 2.0066) (layer F.Fab) (width 0.04064))
+  (fp_circle (center 0 0) (end 0.1 0.2) (layer F.Fab) (width 0.254))
+  (fp_line (start -1.8 12) (end 1.8 12) (layer F.Fab) (width 0.0508))
+  (fp_line (start -1.8 -1.8) (end -1.8 12) (layer F.Fab) (width 0.0508))
+  (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.Fab) (width 0.0508))
+  (fp_text user %R (at -3.4925 5.08 180) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.55 0) (end -1.55 -1.55) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.55 -1.55) (end 1.55 -1.55) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.55 -1.55) (end 1.55 0) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.27 1.27) (end 1.27 11.43) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.27 11.43) (end -1.27 11.43) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.27 11.43) (end -1.27 1.27) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.27 1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.9812 8.0264) (end 7.0104 8.0264) (layer F.Fab) (width 0.04064))
+  (fp_line (start 1.8034 11.9888) (end 1.8034 8.0264) (layer F.Fab) (width 0.04064))
+  (fp_line (start 1.8034 8.0264) (end 2.0066 8.0264) (layer F.Fab) (width 0.04064))
+  (fp_line (start 1.8034 -1.8034) (end 1.8034 2.0066) (layer F.Fab) (width 0.04064))
+  (fp_line (start 1.8034 2.0066) (end 2.0066 2.0066) (layer F.Fab) (width 0.04064))
+  (fp_line (start 7.0104 8.0264) (end 7.0104 5.0546) (layer F.Fab) (width 0.04064))
+  (fp_line (start 7.0104 5.0546) (end 7.0104 2.0066) (layer F.Fab) (width 0.04064))
+  (pad 1 thru_hole circle (at 0 0) (size 2.032 2.032) (drill 1.524) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 0 5.08) (size 2.032 2.032) (drill 1.524) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole circle (at 0 10.16) (size 2.032 2.032) (drill 1.524) (layers *.Cu *.Mask F.SilkS))
+)

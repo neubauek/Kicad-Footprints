@@ -1,0 +1,46 @@
+# KiCad Footprint 
+# Originally from the KiCad Official Libraries
+#   http://github.com/kicad/
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 394
+# Fab_YSize_mils: 295
+#
+# Verified: No
+# Finished: Yes
+
+(module DIODE-SMC-DO214AB (layer F.Cu) (tedit 59946F06)
+  (attr smd)
+  (fp_text reference REF** (at 0 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value DIODE-SMC (at 0 5.08) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at -6 0 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -4.0386 -3.7338) (end -4.0386 3.7338) (layer F.Fab) (width 0.0508))
+  (fp_line (start 5 3.75) (end 5 -3.75) (layer F.Fab) (width 0.0508))
+  (fp_line (start -5 3.75) (end 5 3.75) (layer F.Fab) (width 0.0508))
+  (fp_line (start -5 -3.75) (end -5 3.75) (layer F.Fab) (width 0.0508))
+  (fp_line (start 5 -3.75) (end -5 -3.75) (layer F.Fab) (width 0.0508))
+  (fp_circle (center 0 0) (end 0.7493 0.35052) (layer F.Adhes) (width 0.381))
+  (fp_circle (center 0 0) (end 0.44958 0.20066) (layer F.Adhes) (width 0.381))
+  (fp_circle (center 0 0) (end 0.14986 0.14986) (layer F.Adhes) (width 0.381))
+  (fp_line (start -3.14946 3.40106) (end -3.14946 2.19964) (layer F.SilkS) (width 0.15))
+  (fp_line (start -3.14946 -3.40106) (end -3.14946 -2.19964) (layer F.SilkS) (width 0.15))
+  (fp_line (start 3.59918 3.40106) (end 3.59918 2.19964) (layer F.SilkS) (width 0.15))
+  (fp_line (start 3.59918 -3.40106) (end 3.59918 -2.19964) (layer F.SilkS) (width 0.15))
+  (fp_line (start -3.59918 3.40106) (end -3.59918 2.14884) (layer F.SilkS) (width 0.15))
+  (fp_line (start -3.59918 -3.40106) (end -3.59918 -2.14884) (layer F.SilkS) (width 0.15))
+  (fp_line (start -3.59918 3.40106) (end 3.59918 3.40106) (layer F.SilkS) (width 0.15))
+  (fp_line (start -3.59918 -3.40106) (end 3.59918 -3.40106) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at -3.40106 0 90) (size 3.29946 2.49936) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 3.40106 0 90) (size 3.29946 2.49936) (layers F.Cu F.Paste F.Mask))
+)

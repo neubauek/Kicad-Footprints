@@ -1,0 +1,44 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 461
+# Fab_YSize_mils: 154
+#
+# Verified: No
+# Finished: Yes
+
+(module SWITCH-TECONN-MOMENTARY-SMD-FSMSM (layer F.Cu) (tedit 58157C72)
+  (attr smd)
+  (fp_text reference REF** (at -0.1 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SWITCH-TECONN-MOMENTARY-SMD-FSMSM (at 0.01011 -0.00022) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at 0 -3) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 5.9 1.9) (end 5.9 -2) (layer F.Fab) (width 0.0508))
+  (fp_line (start -5.8 1.9) (end 5.9 1.9) (layer F.Fab) (width 0.0508))
+  (fp_line (start -5.8 -2) (end -5.8 1.9) (layer F.Fab) (width 0.0508))
+  (fp_line (start 5.9 -2) (end -5.8 -2) (layer F.Fab) (width 0.0508))
+  (fp_line (start -1.23989 -0.55022) (end 1.26011 -0.55022) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.26011 -0.55022) (end 1.26011 0.54978) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.26011 0.54978) (end -1.23989 0.54978) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.23989 0.54978) (end -1.23989 -0.55022) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.48989 0.79978) (end 1.51011 0.79978) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.48989 -0.80022) (end 1.51011 -0.80022) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1.51011 -0.80022) (end 1.51011 0.79978) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.48989 -0.80022) (end -1.48989 0.79978) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.98989 1.74978) (end 3.01011 1.74978) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.98989 -1.75022) (end 3.01011 -1.75022) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.98989 -1.75022) (end -2.98989 1.74978) (layer F.SilkS) (width 0.15))
+  (fp_line (start 3.01011 -1.75022) (end 3.01011 1.74978) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at -4.60243 -0.00232) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 4.60243 0.00232) (size 2.18 1.6) (layers F.Cu F.Paste F.Mask))
+)

@@ -1,0 +1,35 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 262
+# Fab_YSize_mils: 332
+#
+# Verified: Yes
+# Finished: Yes
+
+(module CONN-ONSHORE-SCREW-GREEN-3PIN-TH (layer F.Cu) (tedit 58156919)
+  (attr smd)
+  (fp_text reference J11 (at 0 2.54) (layer F.Fab)
+    (effects (font (size 2.032 2.032) (thickness 0.254)))
+  )
+  (fp_text value RS485 (at 2.286 3.302 90) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 0 0.254) (layer F.Fab) (width 0.2))
+  (fp_text user %R (at -2.032 -2.54) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.55 -1.55) (end 1.55 -1.55) (layer F.SilkS) (width 0.15))
+  (fp_line (start 3.33 -1.75) (end 3.33 6.68) (layer F.Fab) (width 0.05))
+  (fp_line (start -3.3 -1.75) (end 3.3 -1.75) (layer F.Fab) (width 0.05))
+  (fp_line (start -3.33 -1.75) (end -3.33 6.68) (layer F.Fab) (width 0.05))
+  (fp_line (start -3.3 6.68) (end 3.3 6.68) (layer F.Fab) (width 0.05))
+  (pad 1 thru_hole rect (at 0 0) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole oval (at 0 2.54) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole oval (at 0 5.08) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+)

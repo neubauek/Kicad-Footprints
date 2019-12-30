@@ -1,0 +1,50 @@
+# KiCad Footprint 
+# Originally from the KiCad Official Libraries
+#   http://github.com/kicad/
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 1620
+# Fab_YSize_mils: 150
+#
+# Verified: No
+# Finished: Yes
+
+(module LCD-1602A-NOHOLES (layer F.Cu) (tedit 5B7B17A7)
+  (attr smd)
+  (fp_text reference J3 (at 0 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "LCD HEADER" (at 13.15 0) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -27.051 33.50006) (end -27.051 -2.49936) (layer F.SilkS) (width 0.15))
+  (fp_line (start 52.94884 33.50006) (end -27.051 33.50006) (layer F.SilkS) (width 0.15))
+  (fp_line (start 52.94884 -2.49936) (end 52.94884 33.50006) (layer F.SilkS) (width 0.15))
+  (fp_line (start -27.051 -2.49936) (end 52.94884 -2.49936) (layer F.SilkS) (width 0.15))
+  (fp_line (start -20.574 -2.032) (end -20.574 1.778) (layer F.Fab) (width 0.05))
+  (fp_line (start -20.574 1.778) (end 20.574 1.778) (layer F.Fab) (width 0.05))
+  (fp_line (start 20.574 1.778) (end 20.574 -2.032) (layer F.Fab) (width 0.05))
+  (fp_line (start 20.574 -2.032) (end -20.574 -2.032) (layer F.Fab) (width 0.05))
+  (fp_circle (center -19.05 0) (end -18.85 0.3) (layer F.Fab) (width 1))
+  (pad 16 thru_hole oval (at 19.05 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 15 thru_hole oval (at 16.51 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 14 thru_hole oval (at 13.97 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 13 thru_hole oval (at 11.43 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 12 thru_hole oval (at 8.89 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 11 thru_hole oval (at 6.35 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 10 thru_hole oval (at 3.81 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 9 thru_hole oval (at 1.27 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 8 thru_hole oval (at -1.27 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 7 thru_hole oval (at -3.81 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 6 thru_hole oval (at -6.35 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 5 thru_hole oval (at -8.89 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole oval (at -11.43 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole oval (at -13.97 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole oval (at -16.51 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole oval (at -19.05 0) (size 1.8 2.6) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+)

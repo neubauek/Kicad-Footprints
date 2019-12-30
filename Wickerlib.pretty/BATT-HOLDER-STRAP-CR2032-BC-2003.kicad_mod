@@ -1,0 +1,37 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 1143
+# Fab_YSize_mils: 266
+#
+# Verified: Yes
+# Finished: Yes
+
+(module BATT-HOLDER-STRAP-CR2032-BC-2003 (layer F.Cu) (tedit 5993719F)
+  (attr smd)
+  (fp_text reference J1 (at 0 0) (layer F.Fab)
+    (effects (font (size 2 2) (thickness 0.254)))
+  )
+  (fp_text value CR2032 (at 0 2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at -12.827 -4.191) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 14.5 3.5) (end 14.5 -3.25) (layer F.Fab) (width 0.05))
+  (fp_line (start -14.5 -3.25) (end -14.5 3.5) (layer F.Fab) (width 0.05))
+  (fp_line (start -9.4742 -3.2512) (end -14.5 -3.25) (layer F.Fab) (width 0.05))
+  (fp_arc (start 0.1016 0.0254) (end -9.4488 -3.2512) (angle 142.1) (layer F.Fab) (width 0.05))
+  (fp_line (start 9.652 -3.2512) (end 14.5034 -3.2512) (layer F.Fab) (width 0.05))
+  (fp_line (start 9.4996 3.4798) (end 14.5254 3.4786) (layer F.Fab) (width 0.05))
+  (fp_arc (start -0.0762 0.2032) (end 9.4742 3.4798) (angle 142.1) (layer F.Fab) (width 0.05))
+  (fp_line (start -9.6266 3.4798) (end -14.478 3.4798) (layer F.Fab) (width 0.05))
+  (pad 1 smd rect (at 12.5 0) (size 3 5.588) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -12.5 0) (size 3 5.588) (layers F.Cu F.Paste F.Mask))
+  (pad GND smd circle (at 0 0) (size 12.7 12.7) (layers F.Cu F.Mask))
+)

@@ -1,0 +1,57 @@
+# KiCad Footprint 
+# Originally from the KiCad Official Libraries
+#   http://github.com/kicad/
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Fab_XSize_mils: 748
+# Fab_YSize_mils: 659
+#
+# Verified: Yes
+# Finished: Yes
+
+(module FGPMMOPA6H (layer F.Cu) (tedit 58AFA134)
+  (attr smd)
+  (fp_text reference U2 (at 0.127 0.0635) (layer F.Fab)
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+  )
+  (fp_text value FGPMMOPA6H-GPS (at 0 -2.9845) (layer F.Fab) hide
+    (effects (font (size 1.27 1.27) (thickness 0.2032)))
+  )
+  (fp_line (start -9.5 -6) (end -7 -8.25) (layer F.Fab) (width 0.04064))
+  (fp_line (start 9.5 -8.25) (end -7 -8.25) (layer F.Fab) (width 0.04064))
+  (fp_line (start 9.5 8.5) (end 9.5 -8.25) (layer F.Fab) (width 0.04064))
+  (fp_line (start -9.5 8.5) (end 9.5 8.5) (layer F.Fab) (width 0.04064))
+  (fp_line (start -9.5 -6) (end -9.5 8.5) (layer F.Fab) (width 0.04064))
+  (fp_text user %R (at 7.366 -9.18718) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -8 -8.382) (end -7.873 -8.1915) (layer F.SilkS) (width 0.508))
+  (fp_line (start -6.5405 -8.001) (end 8.001 -8.001) (layer F.SilkS) (width 0.1524))
+  (fp_line (start 8.001 8.001) (end -8.001 8.001) (layer F.SilkS) (width 0.1524))
+  (fp_circle (center -7.5 -6.25) (end -7.373 -6.0595) (layer F.Fab) (width 0.508))
+  (pad 1 smd rect (at -8.001 -6.74878) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -8.001 -5.25018) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at -8.001 -3.74904) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at -8.001 -2.25044) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 5 smd rect (at -8.001 -0.7493) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 6 smd rect (at -8.001 0.7493) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 7 smd rect (at -8.001 2.25044) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 8 smd rect (at -8.001 3.74904) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 9 smd rect (at -8.001 5.25018) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 10 smd rect (at -8.001 6.74878) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 11 smd rect (at 8.001 6.74878) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 12 smd rect (at 8.001 5.25018) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 13 smd rect (at 8.001 3.74904) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 14 smd rect (at 8.001 2.25044) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 15 smd rect (at 8.001 0.7493) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 16 smd rect (at 8.001 -0.7493) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 17 smd rect (at 8.001 -2.25044) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 18 smd rect (at 8.001 -3.74904) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 19 smd rect (at 8.001 -5.25018) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+  (pad 20 smd rect (at 8.001 -6.74878) (size 1.99898 1.00076) (layers F.Cu F.Paste F.Mask))
+)
