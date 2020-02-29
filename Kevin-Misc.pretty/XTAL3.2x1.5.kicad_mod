@@ -1,4 +1,4 @@
-(module XTAL3.2x1.5 (layer F.Cu) (tedit 200000)
+(module XTAL3.2x1.5 (layer F.Cu) (tedit 5E55F289)
   (attr smd)
   (fp_text reference >NAME (at 0.23876 1.69164) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.0762)))
@@ -24,4 +24,9 @@
   (fp_arc (start -1.04902 -0.14986) (end -1.29794 -0.09906) (angle 90) (layer F.SilkS) (width 0.127))
   (pad P$1 smd rect (at 1.19888 0) (size 1.09982 1.89992) (layers F.Cu F.Paste F.Mask))
   (pad P$2 smd rect (at -1.19888 0 180) (size 1.09982 1.89992) (layers F.Cu F.Paste F.Mask))
+  (model /Users/kevin/Documents/KiCad/3DFiles/FC-135.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

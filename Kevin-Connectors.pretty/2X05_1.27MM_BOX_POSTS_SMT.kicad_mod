@@ -1,4 +1,4 @@
-(module 2X05_1.27MM_BOX_POSTS_SMT (layer F.Cu) (tedit 5D8F7D18)
+(module 2X05_1.27MM_BOX_POSTS_SMT (layer F.Cu) (tedit 5E55EC67)
   (descr "4UCON: 20317")
   (tags "4UCON: 20317")
   (attr smd)
@@ -37,4 +37,9 @@
   (pad 8 smd rect (at 1.27 -2.14884) (size 0.75946 2.59842) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 2.54 2.14884) (size 0.75946 2.59842) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd rect (at 2.54 -2.14884) (size 0.75946 2.59842) (layers F.Cu F.Paste F.Mask))
+  (model "/Users/kevin/Documents/KiCad/3DFiles/SWD Header.igs"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

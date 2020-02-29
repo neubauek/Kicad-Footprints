@@ -1,4 +1,4 @@
-(module QFN64 (layer F.Cu) (tedit 5E0FAF22)
+(module QFN64 (layer F.Cu) (tedit 5E55F13C)
   (descr "PLASTIC QUAD FLAT NON-LEADED PACKAGE 64 PINS, 9 × 9 × 0.85 MM³, 0.5 MM PITCH")
   (tags "PLASTIC QUAD FLAT NON-LEADED PACKAGE 64 PINS, 9 × 9 × 0.85 MM³, 0.5 MM PITCH")
   (attr smd)
@@ -90,4 +90,9 @@
   (pad "" smd rect (at -1.15 -1.15) (size 1.5 1.5) (layers F.Paste))
   (pad "" smd rect (at -1.15 1.15) (size 1.5 1.5) (layers F.Paste))
   (pad "" smd rect (at 1.15 1.15) (size 1.5 1.5) (layers F.Paste))
+  (model /Users/kevin/Documents/KiCad/3DFiles/QFN64_9x9MC-M.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,0 +1,9 @@
+(module PogoPin_1mmShaft_1.3mmHead_CircPad (layer F.Cu) (tedit 5E553E70)
+  (fp_text reference REF** (at 0 1.8) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PogoPin_1mmShaft_1.3mmHead_CircPad (at 0 -1.8) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 2 1.5) (drill 1.08) (layers *.Cu *.Mask))
+)

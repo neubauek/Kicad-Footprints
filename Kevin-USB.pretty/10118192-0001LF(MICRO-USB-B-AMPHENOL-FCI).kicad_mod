@@ -1,4 +1,4 @@
-(module "10118192-0001LF(MICRO-USB-B-AMPHENOL-FCI)" (layer F.Cu) (tedit 200000)
+(module "10118192-0001LF(MICRO-USB-B-AMPHENOL-FCI)" (layer F.Cu) (tedit 5E55EF5A)
   (attr smd)
   (fp_text reference >NAME (at -1.20904 -4.05638) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.127)))
@@ -66,4 +66,9 @@
   (pad GND smd rect (at 1.29794 -2.67462) (size 0.39878 1.34874) (layers F.Cu F.Paste F.Mask))
   (pad ID smd rect (at 0.6477 -2.67462) (size 0.39878 1.34874) (layers F.Cu F.Paste F.Mask))
   (pad VBUS smd rect (at -1.29794 -2.67462) (size 0.39878 1.34874) (layers F.Cu F.Paste F.Mask))
+  (model /Users/kevin/Documents/KiCad/3DFiles/10118192-0001LF.stp
+    (offset (xyz -98 3 -0.3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
