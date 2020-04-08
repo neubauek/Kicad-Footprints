@@ -1,9 +1,9 @@
-(module KMR231 (layer F.Cu) (tedit 5E569CFD)
+(module "KMR231" (layer F.Cu) (tedit 5E6BB232)
   (descr "SMT capacitor, 1206")
-  (fp_text reference SW4 (at 0 -0.05) (layer F.SilkS)
+  (fp_text reference "SW4" (at 0 -0.05) (layer F.SilkS)
     (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
   )
-  (fp_text value SW_PUSH (at -0.15 1.7) (layer F.SilkS) hide
+  (fp_text value "SW_PUSH" (at -0.15 1.7) (layer F.SilkS) hide
     (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
   )
   (fp_circle (center 0 0) (end 1 0) (layer F.SilkS) (width 0.1))
@@ -11,16 +11,11 @@
   (fp_line (start 2.1 -1.4) (end -2.1 -1.4) (layer F.SilkS) (width 0.127))
   (fp_line (start 2.1 1.4) (end -2.1 1.4) (layer F.SilkS) (width 0.127))
   (fp_line (start 2.1 1.4) (end 2.1 -1.4) (layer F.SilkS) (width 0.127))
-  (pad 1 smd rect (at 2 -0.8) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -2 0.8) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2 0.8) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -2 -0.8) (size 1 1) (layers F.Cu F.Paste F.Mask))
-  (model smd/capacitors/c_1206.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model /Users/kevin/Documents/KiCad/3DFiles/kmr231.step
+  (pad "1" smd rect (at 2 -0.8) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask"))
+  (pad "2" smd rect (at -2 0.8) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask"))
+  (pad "2" smd rect (at 2 0.8) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask"))
+  (pad "1" smd rect (at -2 -0.8) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask"))
+  (model "/Users/kevin/Documents/KiCad/3DFiles/kmr231.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
